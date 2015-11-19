@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url("../fonts/PressStart2P-Regular.ttf");
+}
+
+* {
+    margin: 0;
+}
+
+.picture {
+    width: 100%;
+    vertical-align: middle;
+    max-width: 100%;
+    border: 0;
+}
+
+.face {
+    position: absolute;
+    background: url("../img/glasses.png") no-repeat center 38% / contain;
+}
+
+.face:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 38%;
+    display: block;
+    bottom: -19%;
+    right: 0%;
+    background: url("../img/spliff.png") no-repeat center / contain;
+}
+
+.mouth {
+    position: absolute;
+    background: red;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+}
+
+.logo {
+    color: white;
+    position: absolute;
+    right: 2.5%;
+    bottom: 7.5%;
+    font-size: 1.8em;
+    transform: rotate(-6deg);
+    font-family: "Press Start 2P", cursive;
+    text-shadow: 0px 1px 0px #999,
+             0px 2px 0px #888,
+             0px 3px 0px #777,
+             0px 4px 0px #666,
+             0px 5px 0px #555,
+             0px 6px 0px #444,
+             0px 7px 0px #333,
+             0px 8px 7px #001135;
+}
+
+.top-left {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 17%;
+}
+
+.top-right {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    width: 17%;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    width: 22%;
+}
